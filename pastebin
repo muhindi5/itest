@@ -1,0 +1,12 @@
+
+                            <c:forEach items="${results}" var="x">
+                         <input type="radio" name="option${count}" value="A">&nbsp;&nbsp;${current.option1} &nbsp;&nbsp;&nbsp;&nbsp;
+                         
+                    </c:forEach>
+
+
+ <c:forEach items="${results}" var="item">
+                                <c:if  test="${item.answerStatus=true}" var="x">
+                                    checked="true"
+                                </c:if>
+                            </c:forEach>

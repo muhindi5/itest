@@ -1,0 +1,202 @@
+/*
+Copyright 2015
+ http://wazza.co.ke
+10:45:35 PM  : Jul 9, 2015
+*/
+/* 
+    Created on : Jul 9, 2015, 10:45:35 PM
+    Author     : kelli
+*/
+
+/*restet*/
+@font-face{
+font-family: Roboto;
+src:local(Roboto), url('fonts/Roboto-Regular.ttf') format ('opentype');
+}
+@font-face{
+font-family: Roboto;
+src:local(Roboto), url('fonts/Roboto-Thin.ttf') format ('opentype');
+}
+@font-face{
+font-family: Roboto;
+src:local(Roboto), url('fonts/Roboto-Bold.ttf') format ('opentype');
+}
+@font-face{
+font-family: Roboto;
+src:local(Roboto), url('fonts/Roboto-Black.ttf') format ('opentype');
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family : Roboto, Arial, Helvetica,sans-serif;
+    color:dimgrey;
+    font-size:13px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ a#btn{
+    background:#006666;
+    color:#ffffff;
+    padding: 5px;
+    font-weight: 700;
+}
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#menu ul{
+    display: block;
+    list-style-type: none;
+    font-weight: 700;
+    padding: 3px 10px;
+    /*text-align: center;*/
+    vertical-align: central;
+}
+
+li#menu-items{
+    display: inline;
+    padding: 10px 10px;
+}
+
+.banner{
+    width:100%;
+    height: 80px;
+    background:#ccccff;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    width: 100%;
+    height: 20px;
+    background:#009999;
+    margin-bottom:20px;
+}
+
+.test-block{
+    margin: 2px;
+    padding: 10px 5px 10px 10px;
+    border: thin #cccccc solid;
+    width: 70%;
+    float: left;
+}
+
+#spacer{
+    margin: 20px;
+    /*clear: both;*/
+}
+
+#q-spacer{
+    margin: 10px;
+}
+
+.q_sec{
+    margin: 2px;
+    padding: 5px 5px 5px 5px;
+    border-bottom: #cccccc dashed thin;
+}
+
+.timer-sec{
+    margin:1px;
+    border:thin solid #cccccc;
+    width: 25%;
+    height: 300px;
+    float: right;
+    padding: 10px 5px 5px 10px;
+}
+
+.results-section{
+    margin:1px;
+    border:thin solid #cccccc;
+    width: 25%;
+    height: 300px;
+    float: right;
+    padding: 10px 5px 5px 10px;
+}
+
+ol#timer-sec{
+    padding:20px;
+}
+
+#head-band{
+    margin: 0px;
+    border:0px;
+    background:#cccccc;
+    color:#ffffff;
+    font-weight:bold;
+    width: 200px;
+    height: 20px;
+    padding:5px 20px;
+    text-align: center;
+}
+
+label#timer-lbl{
+    font-size: x-large;
+    color:#ffffff;
+    background: #003333;
+    padding: 5px;
+}
+
+input[type="submit"]{
+background:#006666;
+    color:#ffffff;
+    padding: 5px;
+    font-weight: 700;
+    float: right;
+    margin:0px;
+    margin-top:10px;
+    border: #006666;
+    width:100px;
+}
+
+#mark-correct{
+    height: 10px;
+    background:#009900;
+    color: #ffffff;
+    font-size:x-small;
+    padding:2px;
+    width:50px;
+    font-weight:bold;
+    text-align: center;
+    display: inline;
+    /*margin:1px;*/
+    border:thin #009900 solid;
+    border-radius: 3px;
+}
+
+
+#mark-wrong{
+    height: 10px;
+    background:#ff3300;
+    color: #ffffff;
+    font-size:x-small;
+    padding:2px;
+    width:50px;
+    font-weight:bold;
+    text-align: center;
+    display: inline;
+    /*margin:1px;*/
+    border:thin #ff3300 solid;
+    border-radius: 3px;
+}
+
+table#summary{
+    color: #003333;
+    padding: 5px 5px;
+    border-collapse: collapse;
+    font-size: small;
+}
+
+#summary td{
+     border-bottom: dotted #ffffff thin;    
+    border-top: dotted #ffffff thin;    
+    padding: 5px 15px;
+    border-collapse: collapse;
+}
